@@ -10,4 +10,9 @@ public class WelcomeController {
 	public String welcome() {
 		return "Welcome to ooty , nice to meet you";
 	}
+	
+	@GetMapping(path = "/home")
+	public String home() {
+		return "Home";
+	}
 }
